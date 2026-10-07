@@ -55,6 +55,22 @@ fun RatingComponent(rating: Int) {
     )
 }
 
+
+@Preview(showBackground = true, name = "Fila Resenia Light Mode")
+@Composable
+fun FilaReseniaPreview() {
+    // Creamos un objeto de datos de prueba (Mock data)
+    val reseniaDePrueba = Resenia(
+        nombreAutor = "Juan Pérez",
+        reseniaText = "Excelente servicio y atención al cliente. Muy recomendado.",
+        rating = 5
+    )
+
+    // Invocamos el componente pasando el objeto de prueba
+    FilaResenia(resenia = reseniaDePrueba)
+}
+
+
 //@Preview(showBackground = true)
 //@Composable
 //fun preview(){

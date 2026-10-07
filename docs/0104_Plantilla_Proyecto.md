@@ -57,56 +57,32 @@ Si la aplicación falla ocasionalmente sería una molestia, pero no supondría u
 
 # 6 · Bocetos
 
-Se realizarán cuatro bocetos principales:
+### Notas:
 
-### Boceto 1 — Inicio / Progresiones
+**Nota1:** El header y el footer son fijos en todas las pantallas exepto en la de login
+**Nota2:** En el footer tengo la seccion de progreso, pero no se si meterla aun. Si veo que me sobra tiempo la meto
 
-En la parte superior aparecerá el nombre de la aplicación.
+## Boceto 1 — Inicio / Progresiones
+**Descripcion:** En esta pantalla Aparece un seguimiento de la actvidad del usuario en los ultimos 7 dias, y luego debajo
+Los distintos cursos ordenados por nivel, apereciendo de primero el que este pasando el usuario mostrando la barra de
+progreso.
+![PantallaInicio.jpg](res/PantallaInicio.jpg)
 
-Debajo se mostrarán las diferentes progresiones o categorías de ejercicios, organizadas por dificultad.
+## Boceto 2 — Login
+**Descripcion:** La tipica pantalla de login.
+![PantallaLogin.jpg](res/PantallaLogin.jpg)
 
-Por ejemplo:
+## Boceto 3 — Ejercicios
+**Descripcion:** En esta pantalla aparece un buscador para encontrar ejercicios individuales por su nombre, luego debajo
+se puede elegir ordenar los ejercicios segun niveles de dificultad o la zona del cuerpo que fortalecen. Si se marca Niveles 
+debajo apareceran los distintos niveles con un desplegable para mostrar los ejercicios que pertenecen a ese nivel. Si elige 
+Zonas apareceran las distintas zonas del cuerpo con un desplegable para mostrar los ejercicios que fortalecen esa zona.
+![PantallaEjercicios.jpg](res/PantallaEjercicios.jpg)
 
-- Principiante.
-- Intermedio.
-- Avanzado.
-
-Dentro de cada nivel aparecerán los ejercicios correspondientes.
-
-También habrá accesos a las secciones de progreso y parques cercanos.
-
-### Boceto 2 — Detalle del ejercicio
-
-La pantalla mostrará:
-
-- Nombre del ejercicio.
-- Imagen o contenido visual.
-- Nivel de dificultad.
-- Descripción.
-- Explicación de cómo realizarlo.
-- Ejercicios o requisitos previos recomendados.
-
-También tendrá un botón para marcar el ejercicio como completado.
-
-### Boceto 3 — Mi progreso
-
-Se mostrarán las diferentes progresiones y los ejercicios que el usuario ha conseguido completar.
-
-Los ejercicios completados podrán diferenciarse visualmente de los que todavía están pendientes.
-
-Esto permitirá comprobar fácilmente cuánto se ha avanzado y qué ejercicios quedan por conseguir.
-
-### Boceto 4 — Parques cercanos
-
-La aplicación utilizará la ubicación actual del dispositivo para consultar zonas cercanas donde se pueda practicar calistenia.
-
-Se podrá mostrar información básica como:
-
-- Nombre del parque o zona.
-- Distancia aproximada.
-- Ubicación.
-
-La forma definitiva de representar estos lugares se decidirá durante el desarrollo según las herramientas estudiadas en el curso.
+## Boceto 4 — Parques cercanos
+**Descripcion:** En esta pantalla se muestran los parques mas cercanos a la ubicacion del usuario donde es posible hacer calistenia,
+dando informacion sobre cada uno y mostrando la ruta de como llegar.
+![PantallaParques.jpg](res/PantallaParques.jpg)
 
 # 7 · Qué datos guarda la app
 
